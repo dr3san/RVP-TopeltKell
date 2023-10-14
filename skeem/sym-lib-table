@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RVP_TopeltKell")(type "KiCad")(uri "${KIPRJMOD}/RVP_TopeltKell.kicad_sym")(options "")(descr ""))
+)
