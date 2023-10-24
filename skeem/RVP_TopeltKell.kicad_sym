@@ -215,7 +215,7 @@
     (property "Footprint" "" (at 0 1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0009865523/DIOD-S-A0010061831-1.pdf" (at 10.16 5.08 0)
+    (property "Datasheet" "https://www.mouser.ee/datasheet/2/115/AP62200_AP62201_AP62200T-3194967.pdf" (at 10.16 5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AP62300_1_1"
