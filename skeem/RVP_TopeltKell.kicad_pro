@@ -329,11 +329,11 @@
     ],
     [
       "f75251d6-8a7b-460a-954c-e46b67200959",
-      "Servo"
+      "Servo motors"
     ],
     [
       "73cb924a-5bea-4e51-900c-7d71494886f5",
-      "Stepper"
+      "Stepper motors"
     ]
   ],
   "text_variables": {}
