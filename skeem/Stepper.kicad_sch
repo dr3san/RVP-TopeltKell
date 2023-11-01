@@ -291,7 +291,7 @@
       (property "Value" "DRV8428" (at 17.78 1.27 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "" (at 6.35 -1.27 0)
+      (property "Footprint" "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm" (at 6.35 -1.27 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8428.pdf" (at 10.16 5.08 0)
@@ -774,7 +774,7 @@
   )
 
   (text "Step angle: 5.625 x 1/64\n\ni.e 4096 steps per revolution\n\n~56.89 steps per 5 deg"
-    (at 140.97 62.23 0)
+    (at 184.15 63.5 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 04be2941-7113-41df-8dc1-bbdee23430c3)
   )
@@ -922,7 +922,7 @@
   (symbol (lib_id "power:+5V") (at 91.44 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 061ad260-df0d-48af-b132-4928d9845e5f)
-    (property "Reference" "#PWR037" (at 91.44 170.18 0)
+    (property "Reference" "#PWR086" (at 91.44 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 91.44 161.29 0)
@@ -938,7 +938,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -947,7 +947,7 @@
   (symbol (lib_id "power:+9V") (at 110.49 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 106665de-878b-44fc-8d03-eec0e96f31a1)
-    (property "Reference" "#PWR032" (at 110.49 29.21 0)
+    (property "Reference" "#PWR075" (at 110.49 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 110.49 20.32 0)
@@ -963,7 +963,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -972,7 +972,7 @@
   (symbol (lib_id "Device:R") (at 99.06 170.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15ccf31a-8a00-48c2-9814-fd6b232433de)
-    (property "Reference" "R16" (at 99.06 163.83 90)
+    (property "Reference" "R18" (at 99.06 163.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33k" (at 99.06 166.37 90)
@@ -989,7 +989,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "R16") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -998,7 +998,7 @@
   (symbol (lib_id "Device:C") (at 96.52 29.21 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1edf784f-5df8-437a-b196-c0a0077891ee)
-    (property "Reference" "C15" (at 88.9 27.94 0)
+    (property "Reference" "C19" (at 88.9 27.94 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10n" (at 88.9 30.48 0)
@@ -1015,7 +1015,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "C15") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -1024,7 +1024,7 @@
   (symbol (lib_id "power:GND") (at 130.81 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 208760df-8225-4abd-b355-b4df8802e880)
-    (property "Reference" "#PWR063" (at 130.81 184.15 0)
+    (property "Reference" "#PWR088" (at 130.81 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 182.88 0)
@@ -1040,7 +1040,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -1049,7 +1049,7 @@
   (symbol (lib_id "Device:R") (at 102.87 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 254b98b3-2dc6-4c38-a72c-f025f3df51a4)
-    (property "Reference" "R14" (at 105.41 81.28 0)
+    (property "Reference" "R17" (at 105.41 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5k1" (at 105.41 83.82 0)
@@ -1066,7 +1066,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "R14") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -1075,7 +1075,7 @@
   (symbol (lib_id "power:GND") (at 102.87 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 463c7f71-6f46-44fd-ab9d-82bdf18219bf)
-    (property "Reference" "#PWR039" (at 102.87 92.71 0)
+    (property "Reference" "#PWR080" (at 102.87 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 91.44 0)
@@ -1091,7 +1091,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -1100,7 +1100,7 @@
   (symbol (lib_id "Device:C") (at 106.68 33.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 51f40523-694b-4939-b925-24ada8ab4a82)
-    (property "Reference" "C14" (at 106.68 29.21 90)
+    (property "Reference" "C20" (at 106.68 29.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470n" (at 106.68 36.83 90)
@@ -1117,7 +1117,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "C14") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -1126,7 +1126,7 @@
   (symbol (lib_id "power:GND") (at 114.3 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f65978c-fbad-4a22-bbc5-cdf55609cbab)
-    (property "Reference" "#PWR062" (at 114.3 168.91 0)
+    (property "Reference" "#PWR085" (at 114.3 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 167.64 0)
@@ -1142,7 +1142,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -1151,7 +1151,7 @@
   (symbol (lib_id "power:+5V") (at 91.44 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 761d4696-a1db-4fd7-854b-f84e39bb34ef)
-    (property "Reference" "#PWR038" (at 91.44 78.74 0)
+    (property "Reference" "#PWR079" (at 91.44 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 91.44 69.85 0)
@@ -1167,7 +1167,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -1176,7 +1176,7 @@
   (symbol (lib_id "Device:C") (at 96.52 120.65 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 799abbc1-c29c-41ca-9f2d-815d3a3e0a9a)
-    (property "Reference" "C19" (at 88.9 119.38 0)
+    (property "Reference" "C22" (at 88.9 119.38 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10n" (at 88.9 121.92 0)
@@ -1193,7 +1193,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "C19") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -1202,7 +1202,7 @@
   (symbol (lib_id "power:GND") (at 96.52 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81bb0772-7c70-4b45-ac39-7939c718fcf4)
-    (property "Reference" "#PWR058" (at 96.52 140.97 0)
+    (property "Reference" "#PWR084" (at 96.52 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 139.7 0)
@@ -1218,7 +1218,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -1227,13 +1227,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 190.5 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ccf9d6c-7127-43b5-9c7c-3de5982a5289)
-    (property "Reference" "J3" (at 193.04 123.19 0)
+    (property "Reference" "J?" (at 193.04 123.19 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "JST XH 5 pin" (at 193.04 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 190.5 124.46 0)
+    (property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" (at 190.5 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 190.5 124.46 0)
@@ -1247,13 +1247,13 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361"
-          (reference "J3") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/f75251d6-8a7b-460a-954c-e46b67200959"
-          (reference "J4") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "J5") (unit 1)
+          (reference "J16") (unit 1)
         )
       )
     )
@@ -1262,7 +1262,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 85.09 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 908da8a3-3811-4056-be11-1488dc920aaf)
-    (property "Reference" "C16" (at 77.47 27.94 0)
+    (property "Reference" "C18" (at 77.47 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 77.47 30.48 0)
@@ -1279,7 +1279,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "C16") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -1288,7 +1288,7 @@
   (symbol (lib_id "power:+5V") (at 113.03 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9580f0fb-3dc1-4c6f-8101-2cb6d0855c24)
-    (property "Reference" "#PWR034" (at 113.03 44.45 0)
+    (property "Reference" "#PWR076" (at 113.03 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 113.03 36.83 0)
@@ -1304,7 +1304,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -1313,7 +1313,7 @@
   (symbol (lib_id "power:GND") (at 96.52 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9911d019-2708-406b-8239-c8d8fe44d1c6)
-    (property "Reference" "#PWR036" (at 96.52 49.53 0)
+    (property "Reference" "#PWR077" (at 96.52 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 48.26 0)
@@ -1329,7 +1329,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -1365,13 +1365,13 @@
   (symbol (lib_id "RVP_TopeltKell:DRV8428") (at 118.11 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f1efaf5-c473-4629-b125-be193afa783f)
-    (property "Reference" "U6" (at 119.38 21.59 0)
+    (property "Reference" "U8" (at 119.38 21.59 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DRV8428" (at 135.89 21.59 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 124.46 24.13 0)
+    (property "Footprint" "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm" (at 124.46 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8428.pdf" (at 163.83 20.32 0)
@@ -1396,7 +1396,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "U6") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -1405,13 +1405,13 @@
   (symbol (lib_id "RVP_TopeltKell:DRV8428") (at 118.11 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7d97ee5-9050-49da-8dfd-638b2f79252a)
-    (property "Reference" "U7" (at 119.38 113.03 0)
+    (property "Reference" "U9" (at 119.38 113.03 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DRV8428" (at 135.89 113.03 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 124.46 115.57 0)
+    (property "Footprint" "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm" (at 124.46 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8428.pdf" (at 163.83 111.76 0)
@@ -1436,7 +1436,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "U7") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -1445,7 +1445,7 @@
   (symbol (lib_id "power:GND") (at 114.3 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb67c3d2-8701-40e0-b977-7a27ee673b5c)
-    (property "Reference" "#PWR045" (at 114.3 77.47 0)
+    (property "Reference" "#PWR078" (at 114.3 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 76.2 0)
@@ -1461,7 +1461,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -1470,7 +1470,7 @@
   (symbol (lib_id "Device:R") (at 102.87 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3944caa-11a7-4718-8d3a-5646d005cd1f)
-    (property "Reference" "R17" (at 105.41 172.72 0)
+    (property "Reference" "R19" (at 105.41 172.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5k1" (at 105.41 175.26 0)
@@ -1487,7 +1487,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "R17") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -1496,13 +1496,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 199.39 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d4a4d1c7-089a-46c2-bc53-0752504f33ce)
-    (property "Reference" "J3" (at 201.93 33.02 0)
+    (property "Reference" "J?" (at 201.93 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "JST XH 5 pin" (at 201.93 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 199.39 34.29 0)
+    (property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" (at 199.39 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 199.39 34.29 0)
@@ -1516,13 +1516,13 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361"
-          (reference "J3") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/f75251d6-8a7b-460a-954c-e46b67200959"
-          (reference "J4") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "J4") (unit 1)
+          (reference "J15") (unit 1)
         )
       )
     )
@@ -1531,7 +1531,7 @@
   (symbol (lib_id "Device:C") (at 106.68 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d4e57477-f8c5-450c-8c69-15d9af7392ad)
-    (property "Reference" "C20" (at 106.68 120.65 90)
+    (property "Reference" "C23" (at 106.68 120.65 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470n" (at 106.68 128.27 90)
@@ -1548,7 +1548,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "C20") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -1557,7 +1557,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 85.09 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d88e0b37-5e09-4a3f-8c0e-3db1ffb6f9fd)
-    (property "Reference" "C1" (at 77.47 119.38 0)
+    (property "Reference" "C21" (at 77.47 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 77.47 121.92 0)
@@ -1574,7 +1574,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "C1") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -1583,7 +1583,7 @@
   (symbol (lib_id "power:+9V") (at 110.49 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc815f6d-b1cf-4d7c-b513-dc9e537b2000)
-    (property "Reference" "#PWR060" (at 110.49 120.65 0)
+    (property "Reference" "#PWR082" (at 110.49 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 110.49 111.76 0)
@@ -1599,7 +1599,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -1608,7 +1608,7 @@
   (symbol (lib_id "power:GND") (at 130.81 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5016c09-bf62-43b9-9c62-e13b9458c11b)
-    (property "Reference" "#PWR035" (at 130.81 92.71 0)
+    (property "Reference" "#PWR081" (at 130.81 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 91.44 0)
@@ -1624,7 +1624,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -1633,7 +1633,7 @@
   (symbol (lib_id "power:+5V") (at 113.03 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e76e7385-c7ef-487f-9f19-63aadddbf3ad)
-    (property "Reference" "#PWR061" (at 113.03 135.89 0)
+    (property "Reference" "#PWR083" (at 113.03 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 113.03 128.27 0)
@@ -1649,7 +1649,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -1658,7 +1658,7 @@
   (symbol (lib_id "Device:R") (at 99.06 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb81c980-db15-4113-82c4-ac10b4a97e43)
-    (property "Reference" "R13" (at 99.06 72.39 90)
+    (property "Reference" "R16" (at 99.06 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33k" (at 99.06 74.93 90)
@@ -1675,7 +1675,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "R13") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -1684,7 +1684,7 @@
   (symbol (lib_id "power:GND") (at 102.87 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5351bc5-0de2-480c-b23e-a608627d52b7)
-    (property "Reference" "#PWR059" (at 102.87 184.15 0)
+    (property "Reference" "#PWR087" (at 102.87 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 182.88 0)
@@ -1700,7 +1700,7 @@
     (instances
       (project "RVP_TopeltKell"
         (path "/55c41515-c5b3-46de-9fdd-e6e788e90361/73cb924a-5bea-4e51-900c-7d71494886f5"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
