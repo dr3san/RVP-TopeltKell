@@ -26,15 +26,6 @@
     (47 "F.CrtYd" user "F.Courtyard")
     (48 "B.Fab" user)
     (49 "F.Fab" user)
-    (50 "User.1" user)
-    (51 "User.2" user)
-    (52 "User.3" user)
-    (53 "User.4" user)
-    (54 "User.5" user)
-    (55 "User.6" user)
-    (56 "User.7" user)
-    (57 "User.8" user)
-    (58 "User.9" user)
   )
 
   (setup
@@ -233,6 +224,11 @@
       (net 98 "/EN_DCDC") (pinfunction "EN") (pintype "input") (thermal_bridge_angle 45) (tstamp 7daa1971-3531-4b35-bed0-57243d4bddea))
     (pad "6" smd rect (at -0.95 -1.35) (size 0.7 1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 7 "Net-(U2-BST)") (pinfunction "BST") (pintype "input") (thermal_bridge_angle 45) (tstamp 211c2640-39a6-4d53-acce-07370ee6a903))
+    (model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
@@ -664,10 +660,10 @@
       (net 52 "/Stepper motors/VREF") (pinfunction "2") (pintype "passive") (tstamp d5d35940-0ed4-4e77-b692-fff3351d17da))
     (pad "3" thru_hole circle (at 0 -5.08) (size 1.44 1.44) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pinfunction "3") (pintype "passive") (tstamp 98ab55f6-7029-4cfc-af54-76eea50f9db9))
-    (model "${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3386P_Vertical.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KICAD7_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3296Y_Vertical.wrl"
+      (offset (xyz 0 5 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 -90))
     )
   )
 
@@ -807,6 +803,11 @@
     (pad "7" smd rect (at 2.575001 0) (size 1.5494 1.5494) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3cd1a841-8ea4-4c11-aba1-99c71804b64c))
     (pad "8" smd rect (at -5.774998 5.450078) (size 1.5494 1.5494) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 14a3b8be-66f3-4d8f-ae2b-855a5248268e))
     (pad "9" smd rect (at 2.574998 5.450078) (size 1.5494 1.5494) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2fa6f2c9-4848-454a-bac5-84a587f6c529))
+    (model "${KICAD7_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Mini-B_Lumberg_2486_01_Horizontal.step"
+      (opacity 0.3500)      (offset (xyz -1.6 -2.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
@@ -1181,9 +1182,9 @@
       (net 30 "/Servo motors/SERVO10") (pinfunction "Y2") (pintype "output") (tstamp 53fab15a-0a60-44b2-b694-afe88e8fc769))
     (pad "16" smd roundrect (at 2.575 -4.445) (size 1.75 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "+5V") (pinfunction "VCC") (pintype "power_in") (tstamp e4cb6d28-c780-4a6e-b238-bcce7ae68d42))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-16_3.9x9.9mm_P1.27mm.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-16_3.9x9.9mm_P1.27mm.wrl"
       (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.9 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2286,10 +2287,10 @@
         )
       )
     )
-    (model "${KICAD6_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-S3-WROOM-1.wrl"
+    (model "${KIPRJMOD}/3Dmodels/ESP32-S3-WROOM-1-N16R2.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -2509,9 +2510,9 @@
     (pad "16" smd roundrect (at 2.875 -2.275 270) (size 1.55 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "+5V") (pinfunction "nSLEEP") (pintype "input") (tstamp 55433e66-0496-4403-94ea-561dd89f1b6d))
     (pad "17" smd rect (at 0 0 270) (size 3 3) (layers "F.Cu" "F.Mask") (tstamp 3118312c-aa51-4e6a-825c-187a133db8bd))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Package_SO.3dshapes/MSOP-16-1EP_3x4mm_Pitch0.5mm_EP1.65x2.85mm.wrl"
       (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 1.3 1.3 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2901,6 +2902,11 @@
       (net 98 "/EN_DCDC") (pinfunction "EN") (pintype "input") (thermal_bridge_angle 45) (tstamp 836589ea-f6ba-41d8-b9ec-1ecc1d0e738a))
     (pad "6" smd rect (at -0.95 -1.35) (size 0.7 1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "Net-(U1-BST)") (pinfunction "BST") (pintype "input") (thermal_bridge_angle 45) (tstamp f87a7d65-8892-4f9a-a1bd-1d7813a2a864))
+    (model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (footprint "Inductor_SMD:L_Wuerth_WE-PD-Typ-7345" (layer "F.Cu")
@@ -2976,9 +2982,9 @@
       (net 3 "Net-(U1-SW)") (pinfunction "1") (pintype "passive") (tstamp 3fc654fa-7e27-4e9a-80a5-3d6047c6d2cc))
     (pad "2" smd rect (at 3 0 270) (size 2 1.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 5 "+5V") (pinfunction "2") (pintype "passive") (tstamp 2df75d0e-4b39-4db1-a6a0-b2d003d156ac))
-    (model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_WE-PD-Typ-7345.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRR1260.wrl"
       (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.6 0.6 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3391,9 +3397,9 @@
     (pad "16" smd roundrect (at 2.875 -2.275 90) (size 1.55 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "+5V") (pinfunction "nSLEEP") (pintype "input") (tstamp 02fd67e5-2216-44e0-8b4d-9caadcc31548))
     (pad "17" smd rect (at 0 0 90) (size 3 3) (layers "F.Cu" "F.Mask") (tstamp b7ab7625-d66e-4e02-b0f7-b161c5d3abf9))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Package_SO.3dshapes/MSOP-16-1EP_3x4mm_Pitch0.5mm_EP1.65x2.85mm.wrl"
       (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 1.3 1.3 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3454,7 +3460,7 @@
 
   (footprint "Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal" (layer "F.Cu")
     (tstamp a8caff47-9667-4efb-90fe-c877df2ea7b8)
-    (at 200.4 123 90)
+    (at 200.7 123.5 90)
     (descr "Surface-mount DC Barrel Jack, https://www.cliffuk.co.uk/products/dcconnectors/FC681465S.pdf")
     (tags "Power Jack SMT")
     (property "Sheetfile" "RVP_TopeltKell.kicad_sch")
@@ -3534,8 +3540,8 @@
     (pad "2" smd rect (at 3 5.5 180) (size 3 2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pintype "passive") (tstamp 362fb2d2-1c20-4900-9312-e0b90dd363e9))
     (pad "3" smd rect (at -3 5.5 180) (size 3 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 25dbaf88-6c84-455c-8268-8fad80ee0a72))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_CLIFF_FC681465S_SMT_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KICAD7_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Horizontal.wrl"
+      (offset (xyz 6 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4237,9 +4243,9 @@
       (net 22 "/Servo motors/SERVO2") (pinfunction "Y2") (pintype "output") (tstamp c7874bce-3aa6-4700-a86e-490bbce09897))
     (pad "16" smd roundrect (at 2.575 -4.445) (size 1.75 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "+5V") (pinfunction "VCC") (pintype "power_in") (tstamp fe3d9d50-ee85-444a-a57b-dad8af17a323))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-16_3.9x9.9mm_P1.27mm.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-16_4.55x10.3mm_P1.27mm.wrl"
       (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.8 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -4354,7 +4360,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-143" (layer "F.Cu")
     (tstamp cbeba7b8-cf6c-4a75-afa1-2a1f5fd79690)
-    (at 131.15 118.45)
+    (at 131.7 118.3)
     (descr "SOT-143 https://www.nxp.com/docs/en/package-information/SOT143B.pdf")
     (tags "SOT-143")
     (property "Sheetfile" "RVP_TopeltKell.kicad_sch")
@@ -4927,9 +4933,9 @@
       (net 6 "Net-(U2-SW)") (pinfunction "1") (pintype "passive") (tstamp 8a9c1adf-8d33-4044-bb9b-7eedd3b53092))
     (pad "2" smd rect (at 3.2 0 270) (size 1.5 2.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 8 "+3V3") (pinfunction "2") (pintype "passive") (tstamp 53582df3-b685-4826-a127-a117435da84e))
-    (model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_7.3x7.3_H3.5.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRR1260.wrl"
       (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.5 0.5 0.4))
       (rotate (xyz 0 0 0))
     )
   )
@@ -5084,9 +5090,9 @@
       (net 9 "/ESP_EN") (pinfunction "2") (pintype "passive") (tstamp c79f8356-93e8-4daa-a206-0584a936a121))
     (pad "2" smd rect (at 3.4 2 270) (size 3.2 1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 9 "/ESP_EN") (pinfunction "2") (pintype "passive") (tstamp 8f4de15a-73d3-434b-a78f-0507d0903abc))
-    (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_EVQQ2.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645.step"
       (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.9 0.9 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -5438,6 +5444,9 @@
   (gr_text "kuhu meh augud?" (at 152 76.1) (layer "Cmts.User") (tstamp 2a96c334-24b1-4d36-a85f-186cda96bfec)
     (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
   )
+  (gr_text "kas 0.2mm traced?\ntoide?" (at 142.9 113.3) (layer "Cmts.User") (tstamp 8d094287-3a55-4709-a7fe-27537b090c81)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+  )
   (gr_text "kas vaja 100n kondesid\nsisendisse, v2ljundisse?" (at 164.7 108.5) (layer "Cmts.User") (tstamp bed237c4-0c4c-434c-b3eb-0831964a6ca9)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
@@ -5447,8 +5456,6 @@
     (stroke (width 0.15) (type solid))  )
 
   (segment (start 131.247699 121.6129) (end 131.247699 120.497699) (width 0.2) (layer "F.Cu") (net 13) (tstamp d1fc0a17-c1ea-47a5-add3-d1a929564742))
-  (segment (start 132.0477 119.5023) (end 132.15 119.4) (width 0.2) (layer "F.Cu") (net 14) (tstamp 18d0ef1f-0ca8-44c4-b4b8-b2f6f78221cb))
   (segment (start 132.0477 121.6129) (end 132.0477 122.7432) (width 0.2) (layer "F.Cu") (net 14) (tstamp 6c90627d-270b-4f52-abaf-2fdaf8f3fefb))
-  (segment (start 124.25 120.6) (end 123.7 120.6) (width 0.2) (layer "F.Cu") (net 14) (tstamp f5410eed-5160-4fd2-b320-ef60355621a9))
 
 )
